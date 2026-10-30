@@ -2,14 +2,10 @@
  * Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
  */
 
-// From SC
-void AddMyPlayerScripts();
-
-// Add all
+// This module is SQL only. The loader exists so the core builds the module
+// and its SQL is applied by the database updater.
 // cf. the naming convention https://github.com/azerothcore/azerothcore-wotlk/blob/master/doc/changelog/master.md#how-to-upgrade-4
 // additionally replace all '-' in the module folder name with '_' here
 void Addmod_rare_dropsScripts()
 {
-    AddMyPlayerScripts();
 }
-
